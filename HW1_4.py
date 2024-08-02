@@ -1,0 +1,6 @@
+w = int(input("number of wheels:"))
+b = int(input("number of bodies:"))
+d = int(input("number of dummies:"))
+w = int(w/4)
+d = int(d/2)
+print("cars:",min(w,b,d))
